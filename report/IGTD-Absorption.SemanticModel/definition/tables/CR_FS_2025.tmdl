@@ -1,0 +1,391 @@
+table CR_FS_2025
+	lineageTag: 8ae159fb-6bb1-4aa2-a955-cc058b5c51b7
+
+	column document_line
+		dataType: string
+		lineageTag: 146ab2c4-7f64-4751-b518-84845090f1bc
+		summarizeBy: none
+		sourceColumn: document_line
+
+		annotation SummarizationSetBy = Automatic
+
+	column document_type_fi
+		dataType: string
+		lineageTag: e0ad1cfe-e4c1-4220-84b2-e4919b2598ae
+		summarizeBy: none
+		sourceColumn: document_type_fi
+
+		annotation SummarizationSetBy = Automatic
+
+	column ref_document
+		dataType: string
+		lineageTag: b29f496d-780a-4a18-be78-e59efb2d73bd
+		summarizeBy: none
+		sourceColumn: ref_document
+
+		annotation SummarizationSetBy = Automatic
+
+	column posting_period
+		dataType: string
+		lineageTag: 63edde4d-c77d-482c-b3da-e4a5c3b1eaa4
+		summarizeBy: none
+		sourceColumn: posting_period
+
+		annotation SummarizationSetBy = Automatic
+
+	column profit_center
+		dataType: string
+		lineageTag: 7e20613f-3d7b-4f68-bff5-68bb3198f5cf
+		summarizeBy: none
+		sourceColumn: profit_center
+
+		annotation SummarizationSetBy = Automatic
+
+	column business_area
+		dataType: string
+		lineageTag: 6072a979-c6f9-4482-88f8-88b8711dc39b
+		summarizeBy: none
+		sourceColumn: business_area
+
+		annotation SummarizationSetBy = Automatic
+
+	column cost_center
+		dataType: string
+		lineageTag: bd0966a9-d45a-43dc-b5b6-4b08e1edf3c2
+		summarizeBy: none
+		sourceColumn: cost_center
+
+		annotation SummarizationSetBy = Automatic
+
+	column plant
+		dataType: string
+		lineageTag: 94afbf2a-cf86-4f79-9005-31423e613824
+		summarizeBy: none
+		sourceColumn: plant
+
+		annotation SummarizationSetBy = Automatic
+
+	column account_number
+		dataType: string
+		lineageTag: f5721b18-f489-4f14-ab4f-f2e704e22098
+		summarizeBy: none
+		sourceColumn: account_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column text
+		dataType: string
+		lineageTag: 34521316-aa4c-44c9-94fe-7f7bed5c0bab
+		summarizeBy: none
+		sourceColumn: text
+
+		annotation SummarizationSetBy = Automatic
+
+	column transaction_type
+		dataType: string
+		lineageTag: 12754226-bd92-4358-8d03-92f98dbde411
+		summarizeBy: none
+		sourceColumn: transaction_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column controlling_area
+		dataType: string
+		lineageTag: 935908fb-9f02-4978-994f-d652a216fd13
+		summarizeBy: none
+		sourceColumn: controlling_area
+
+		annotation SummarizationSetBy = Automatic
+
+	column fiscal_year
+		dataType: string
+		lineageTag: e0c184c9-379d-485e-ab77-3322d922483d
+		summarizeBy: none
+		sourceColumn: fiscal_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantity
+		dataType: double
+		lineageTag: 6224f545-8572-42c0-af76-c57af07fb4dc
+		summarizeBy: sum
+		sourceColumn: quantity
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column amount_cc_currency
+		dataType: double
+		lineageTag: 873a28c1-b8d3-47cf-a747-908a0de4c45a
+		summarizeBy: sum
+		sourceColumn: amount_cc_currency
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column activity
+		dataType: string
+		lineageTag: 179a554d-aff8-4b40-b1ed-cd9995601668
+		summarizeBy: none
+		sourceColumn: activity
+
+		annotation SummarizationSetBy = Automatic
+
+	column document_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 6c4a42f6-dd66-473f-aaa9-34df3f844840
+		summarizeBy: none
+		sourceColumn: document_date
+
+		variation Variation
+			isDefault
+			relationship: ba8a44bc-183d-48e1-8a3a-73d9fe6bf83a
+			defaultHierarchy: LocalDateTable_299867ae-6e65-479f-ae10-1727dc047a5f.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column supplier
+		dataType: string
+		lineageTag: 6b260a98-b40f-4162-8fa2-daf4854e80fa
+		summarizeBy: none
+		sourceColumn: supplier
+
+		annotation SummarizationSetBy = Automatic
+
+	column acc_text
+		dataType: string
+		lineageTag: 5910e4f0-c051-4a4e-99aa-212f6730c0a3
+		summarizeBy: none
+		sourceColumn: acc_text
+
+		annotation SummarizationSetBy = Automatic
+
+	column purchasing_document
+		dataType: string
+		lineageTag: 985f0be5-eee2-4f1f-828e-7ae75799aa7f
+		summarizeBy: none
+		sourceColumn: purchasing_document
+
+		annotation SummarizationSetBy = Automatic
+
+	column material
+		dataType: string
+		lineageTag: d911fcd3-2d76-474b-805e-48573f9676a5
+		summarizeBy: none
+		sourceColumn: material
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_no
+		dataType: string
+		lineageTag: fdc7742f-f78b-4ce3-ad5b-eb4f6ec989f7
+		summarizeBy: none
+		sourceColumn: order_no
+
+		annotation SummarizationSetBy = Automatic
+
+	column document_number
+		dataType: string
+		lineageTag: 8e25346d-ef52-43b8-97fc-43aebdefb66a
+		summarizeBy: none
+		sourceColumn: document_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column user_name
+		dataType: string
+		lineageTag: 103c010b-d9ed-42a2-87ae-13924607159e
+		summarizeBy: none
+		sourceColumn: user_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column entry_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3b9ad748-3322-42c2-ab25-f8c81b6fb59a
+		summarizeBy: none
+		sourceColumn: entry_date
+
+		variation Variation
+			isDefault
+			relationship: f9533d26-876b-4caa-8fb8-ff65f81a0786
+			defaultHierarchy: LocalDateTable_cbe330a8-3b46-40b6-8b6e-36ab2d80b20b.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column posting_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 12ea7db0-058d-49c0-9ae8-2c7abf8c1889
+		summarizeBy: none
+		sourceColumn: posting_date
+
+		variation Variation
+			isDefault
+			relationship: 1e8007c2-9c0d-4d78-b4e8-94257f0f80da
+			defaultHierarchy: LocalDateTable_64d68a94-b238-479a-9932-0e62f2dfc3c0.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column activity_type
+		dataType: string
+		lineageTag: 86441467-fa58-44b2-907d-ce9276d277d3
+		summarizeBy: none
+		sourceColumn: activity_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column partner_profit_ctr
+		dataType: string
+		lineageTag: 873acdbc-0c06-4392-b60b-b6fe88cb9a90
+		summarizeBy: none
+		sourceColumn: partner_profit_ctr
+
+		annotation SummarizationSetBy = Automatic
+
+	column trading_partner
+		dataType: string
+		lineageTag: 0d949bd6-13f3-4616-a40e-595bc13f8ac4
+		summarizeBy: none
+		sourceColumn: trading_partner
+
+		annotation SummarizationSetBy = Automatic
+
+	column functional_area
+		dataType: string
+		lineageTag: 872cde75-0399-42b6-bf84-e6b8ee7779bc
+		summarizeBy: none
+		sourceColumn: functional_area
+
+		annotation SummarizationSetBy = Automatic
+
+	column document_type_pca
+		dataType: string
+		lineageTag: eac4fa53-d71b-4bef-bd5e-a646310a6178
+		summarizeBy: none
+		sourceColumn: document_type_pca
+
+		annotation SummarizationSetBy = Automatic
+
+	column wbs_element
+		dataType: string
+		lineageTag: 4d0fffc8-98d3-4109-9836-b961d2ae9ec2
+		summarizeBy: none
+		sourceColumn: wbs_element
+
+		annotation SummarizationSetBy = Automatic
+
+	column amount_pc_local_currency
+		dataType: double
+		lineageTag: 6e4a5d4d-30aa-4b0a-9a67-7f8b00aa5ce9
+		summarizeBy: sum
+		sourceColumn: amount_pc_local_currency
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column elimination_prctr
+		dataType: string
+		lineageTag: 9b13df7f-ac83-4a68-9ba3-0f120ecef466
+		summarizeBy: none
+		sourceColumn: elimination_prctr
+
+		annotation SummarizationSetBy = Automatic
+
+	column discipline
+		dataType: string
+		lineageTag: a6a5e350-4057-4088-946e-9e092cd19e9c
+		summarizeBy: none
+		sourceColumn: discipline
+
+		annotation SummarizationSetBy = Automatic
+
+	column category_long
+		dataType: string
+		lineageTag: 844f2c0d-c6cf-4eff-9da2-4ec5fc089aca
+		summarizeBy: none
+		sourceColumn: category_long
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: 7a75644a-3828-4236-bbdc-c41d29b94faa
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column site
+		dataType: string
+		lineageTag: d91003c1-e487-4685-a91a-7b8141d61868
+		summarizeBy: none
+		sourceColumn: site
+
+		annotation SummarizationSetBy = Automatic
+
+	column oru_description
+		dataType: string
+		lineageTag: 5c6229e6-d736-4b97-92c0-6476ce8ad410
+		summarizeBy: none
+		sourceColumn: oru_description
+
+		annotation SummarizationSetBy = Automatic
+
+	column prod_order_lookup
+		dataType: string
+		lineageTag: 0d52c7e3-1d5c-4b83-af13-0b8a962f71ca
+		summarizeBy: none
+		sourceColumn: prod_order_lookup
+
+		annotation SummarizationSetBy = Automatic
+
+	column part_number_lookup
+		dataType: string
+		lineageTag: f42e4929-5f5b-4c77-a379-6a8c4fff3639
+		summarizeBy: none
+		sourceColumn: part_number_lookup
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_line_key
+		dataType: string
+		lineageTag: 1b7b251c-9a2a-4748-ab67-3c07cc7d9916
+		summarizeBy: none
+		sourceColumn: product_line_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_undivided
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: fe01ec02-3eaf-4597-8f3b-3996f44f9266
+		summarizeBy: none
+		sourceColumn: is_undivided
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CR_FS_2025 = m
+		mode: import
+		source =
+				let
+				    Source = Databricks.Catalogs("adb-8587249103137143.3.azuredatabricks.net", "/sql/1.0/warehouses/25534f8556d30920", [Catalog=null, Database=null, QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation="2.0", Protocol=null]),
+				    qa_wb_Database = Source{[Name="qa_wb",Kind="Database"]}[Data],
+				    digitalfactory_Schema = qa_wb_Database{[Name="digitalfactory",Kind="Schema"]}[Data],
+				    vw_cs_absorption_fs_cr_25_View = digitalfactory_Schema{[Name="vw_cs_absorption_fs_cr_25",Kind="View"]}[Data]
+				in
+				    vw_cs_absorption_fs_cr_25_View
+
+	annotation PBI_ResultType = Table
+

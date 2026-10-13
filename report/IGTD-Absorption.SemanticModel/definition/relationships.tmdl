@@ -161,3 +161,38 @@ relationship 8069c1dd-f2d8-9a41-8694-af60f5ddda32
 	fromColumn: CR_AOP_2026.product_line_key
 	toColumn: CR_Dim_Product_Line.product_line_key
 
+relationship 9683cb36-03a2-4348-818e-2a9658eeb30b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CR_MB51_Units_2025.posting_date
+	toColumn: LocalDateTable_5cef893f-7dee-4218-baf1-9a3c4c7b012d.Date
+
+relationship 51ee77e9-8c9c-42cd-8387-f0935a5dc771
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CR_MB51_Units_2025.entry_date
+	toColumn: LocalDateTable_736de3f0-7963-4fbf-b3a4-55fea34e0ffe.Date
+
+relationship eb5f5a17-25ef-4a23-b586-7d78a19aac47
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CR_MB51_2025.posting_date
+	toColumn: LocalDateTable_007a4ef0-e01d-4119-a9a6-7212f5f2e6b7.Date
+
+relationship 3750ac3e-59e4-43a0-8870-84b82fc287e5
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CR_MB51_2025.entry_date
+	toColumn: LocalDateTable_409bb55f-d371-47f1-9fb7-b9752f53d2cb.Date
+
+relationship ba8a44bc-183d-48e1-8a3a-73d9fe6bf83a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CR_FS_2025.document_date
+	toColumn: LocalDateTable_299867ae-6e65-479f-ae10-1727dc047a5f.Date
+
+relationship f9533d26-876b-4caa-8fb8-ff65f81a0786
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CR_FS_2025.entry_date
+	toColumn: LocalDateTable_cbe330a8-3b46-40b6-8b6e-36ab2d80b20b.Date
+
+relationship 1e8007c2-9c0d-4d78-b4e8-94257f0f80da
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CR_FS_2025.posting_date
+	toColumn: LocalDateTable_64d68a94-b238-479a-9932-0e62f2dfc3c0.Date
+

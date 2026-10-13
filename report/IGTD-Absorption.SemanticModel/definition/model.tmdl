@@ -10,7 +10,7 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["Fact_FS_Absorption","Dim_Material_Master","Fact_AOP","Dim_Subassemblies_Counted","Dim_Product_Tree_Leaf","Fact_MB51_Units","Product_Line_Map","_Measures","Dim_Site_Dim","Dim_Holidays","RefreshInfo","CR_FS_Absorption","CR_Material_Master","CR_MB51","CR_AOP_2026","CR_Holidays","_CR_CS_Measures","CR_MB51_Units","CR_Dim_Product_Line","_US & CR IGT-D_Measures"]
+annotation PBI_QueryOrder = ["Fact_FS_Absorption","Dim_Material_Master","Fact_AOP","Dim_Subassemblies_Counted","Dim_Product_Tree_Leaf","Fact_MB51_Units","Product_Line_Map","_Measures","Dim_Site_Dim","Dim_Holidays","RefreshInfo","CR_FS_Absorption","CR_Material_Master","CR_MB51","CR_AOP_2026","CR_Holidays","_CR_CS_Measures","CR_MB51_Units","CR_Dim_Product_Line","_US & CR IGT-D_Measures","CR_MB51_Units_2025","CR_MB51_2025","CR_FS_2025"]
 
 ref table Fact_FS_Absorption
 ref table Dim_Material_Master
@@ -48,6 +48,16 @@ ref table CR_Dim_Product_Line
 ref table '_US & CR IGT-D_Measures'
 ref table 'IGTD Product Lines'
 ref table 'IGTD Sites'
+ref table CR_MB51_Units_2025
+ref table LocalDateTable_5cef893f-7dee-4218-baf1-9a3c4c7b012d
+ref table LocalDateTable_736de3f0-7963-4fbf-b3a4-55fea34e0ffe
+ref table CR_MB51_2025
+ref table LocalDateTable_007a4ef0-e01d-4119-a9a6-7212f5f2e6b7
+ref table LocalDateTable_409bb55f-d371-47f1-9fb7-b9752f53d2cb
+ref table CR_FS_2025
+ref table LocalDateTable_299867ae-6e65-479f-ae10-1727dc047a5f
+ref table LocalDateTable_cbe330a8-3b46-40b6-8b6e-36ab2d80b20b
+ref table LocalDateTable_64d68a94-b238-479a-9932-0e62f2dfc3c0
 
 ref cultureInfo en-US
 

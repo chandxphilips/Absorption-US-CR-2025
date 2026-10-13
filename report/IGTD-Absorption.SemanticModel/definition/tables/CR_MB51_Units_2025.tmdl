@@ -1,0 +1,246 @@
+table CR_MB51_Units_2025
+	lineageTag: c1fce611-978d-4fb9-a927-c32d5d125183
+
+	column material
+		dataType: string
+		lineageTag: 111f21c4-4f9b-458e-bd1d-10c628a62474
+		summarizeBy: none
+		sourceColumn: material
+
+		annotation SummarizationSetBy = Automatic
+
+	column material_description
+		dataType: string
+		lineageTag: 22da7236-4623-4bed-98d7-37156f4a96bd
+		summarizeBy: none
+		sourceColumn: material_description
+
+		annotation SummarizationSetBy = Automatic
+
+	column qty_in_unit_of_entry
+		dataType: double
+		lineageTag: 5c00e057-7747-4841-bc68-18deba884579
+		summarizeBy: sum
+		sourceColumn: qty_in_unit_of_entry
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column batch
+		dataType: string
+		lineageTag: 4a3b17dc-d0b3-49c4-a4b1-79fbbd6eee6f
+		summarizeBy: none
+		sourceColumn: batch
+
+		annotation SummarizationSetBy = Automatic
+
+	column plant
+		dataType: string
+		lineageTag: 08921bfa-07eb-43b7-a24a-d740bbfd4bde
+		summarizeBy: none
+		sourceColumn: plant
+
+		annotation SummarizationSetBy = Automatic
+
+	column material_document
+		dataType: string
+		lineageTag: f79dbabf-8db5-4f2f-a5a6-6b6ee098d4ae
+		summarizeBy: none
+		sourceColumn: material_document
+
+		annotation SummarizationSetBy = Automatic
+
+	column movement_type
+		dataType: string
+		lineageTag: 75fe3bf0-9924-44d4-9b2a-f5451cbf6da8
+		summarizeBy: none
+		sourceColumn: movement_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column amt_in_loc_cur
+		dataType: double
+		lineageTag: 952f2d60-8217-4b31-9fce-0dd32f7d2de4
+		summarizeBy: sum
+		sourceColumn: amt_in_loc_cur
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column posting_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 690637a7-05c8-4179-abe2-280aecf4d08c
+		summarizeBy: none
+		sourceColumn: posting_date
+
+		variation Variation
+			isDefault
+			relationship: 9683cb36-03a2-4348-818e-2a9658eeb30b
+			defaultHierarchy: LocalDateTable_5cef893f-7dee-4218-baf1-9a3c4c7b012d.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column order_number
+		dataType: string
+		lineageTag: e7248e79-039c-41de-9ebd-a3272a3faf23
+		summarizeBy: none
+		sourceColumn: order_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column company_code
+		dataType: string
+		lineageTag: 6c2510b8-e821-4da6-95e3-15caeb855619
+		summarizeBy: none
+		sourceColumn: company_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column cost_center
+		dataType: string
+		lineageTag: 73574666-269d-4e22-a38c-a3dab6e6db55
+		summarizeBy: none
+		sourceColumn: cost_center
+
+		annotation SummarizationSetBy = Automatic
+
+	column entry_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: ef1b2bce-6596-4974-8f70-e893819b759f
+		summarizeBy: none
+		sourceColumn: entry_date
+
+		variation Variation
+			isDefault
+			relationship: 51ee77e9-8c9c-42cd-8387-f0935a5dc771
+			defaultHierarchy: LocalDateTable_736de3f0-7963-4fbf-b3a4-55fea34e0ffe.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column purchase_order
+		dataType: string
+		lineageTag: e5b9639c-c679-4664-a9eb-61f5fea123e4
+		summarizeBy: none
+		sourceColumn: purchase_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column user_name
+		dataType: string
+		lineageTag: a8a35679-91a2-4421-99af-451e2d5d18ce
+		summarizeBy: none
+		sourceColumn: user_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column qty_in_order_unit
+		dataType: double
+		lineageTag: cc5df7f6-c839-4616-bdf9-6431833240c5
+		summarizeBy: sum
+		sourceColumn: qty_in_order_unit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column order_unit
+		dataType: string
+		lineageTag: 80fdf589-ac85-4f1d-a884-730f801e4d78
+		summarizeBy: none
+		sourceColumn: order_unit
+
+		annotation SummarizationSetBy = Automatic
+
+	column base_unit_of_measure
+		dataType: string
+		lineageTag: beafef5b-7910-4382-95ce-1e4239e5840e
+		summarizeBy: none
+		sourceColumn: base_unit_of_measure
+
+		annotation SummarizationSetBy = Automatic
+
+	column site
+		dataType: string
+		lineageTag: 28aa47ce-facc-476d-9fe0-a7d71edde01a
+		summarizeBy: none
+		sourceColumn: site
+
+		annotation SummarizationSetBy = Automatic
+
+	column business
+		dataType: string
+		lineageTag: ca101893-2b23-471a-bada-672e97fc9f93
+		summarizeBy: none
+		sourceColumn: business
+
+		annotation SummarizationSetBy = Automatic
+
+	column discipline
+		dataType: string
+		lineageTag: edda7921-6070-4a42-bb5c-60f3ba741408
+		summarizeBy: none
+		sourceColumn: discipline
+
+		annotation SummarizationSetBy = Automatic
+
+	column sheet_product_hierarchy
+		dataType: string
+		lineageTag: 88a21d01-b3ba-40ed-ace8-f0f87653085c
+		summarizeBy: none
+		sourceColumn: sheet_product_hierarchy
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_line_key
+		dataType: string
+		lineageTag: 4cb14137-5e0d-429f-a265-f729582f2743
+		summarizeBy: none
+		sourceColumn: product_line_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column sheet_profit_ctr
+		dataType: string
+		lineageTag: 74165f75-fe73-4b97-91aa-43c22b76de78
+		summarizeBy: none
+		sourceColumn: sheet_profit_ctr
+
+		annotation SummarizationSetBy = Automatic
+
+	column part_number
+		dataType: string
+		lineageTag: 0c9bda00-19b5-43e0-a089-fa4150c018ef
+		summarizeBy: none
+		sourceColumn: part_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column final_pack_12nc
+		dataType: string
+		lineageTag: 26db1e62-f68b-45b8-912d-97b648659f1d
+		summarizeBy: none
+		sourceColumn: final_pack_12nc
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CR_MB51_Units_2025 = m
+		mode: import
+		source =
+				let
+				    Source = Databricks.Catalogs("adb-8587249103137143.3.azuredatabricks.net", "/sql/1.0/warehouses/25534f8556d30920", [Catalog=null, Database=null, QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation="2.0", Protocol=null]),
+				    qa_wb_Database = Source{[Name="qa_wb",Kind="Database"]}[Data],
+				    digitalfactory_Schema = qa_wb_Database{[Name="digitalfactory",Kind="Schema"]}[Data],
+				    vw_cs_absorption_mb51_cr_units_25_View = digitalfactory_Schema{[Name="vw_cs_absorption_mb51_cr_units_25",Kind="View"]}[Data]
+				in
+				    vw_cs_absorption_mb51_cr_units_25_View
+
+	annotation PBI_ResultType = Table
+
