@@ -23,7 +23,6 @@ ref table LocalDateTable_39369c3d-80a7-47a0-b11e-69fcda9b2dfe
 ref table Fact_MB51_Units
 ref table LocalDateTable_0e40a3fe-6fcc-44b8-aad6-8c8d1e14d02e
 ref table Calendar
-ref table LocalDateTable_eec5fda3-a7b8-4181-90d8-f1dfdf8fbbba
 ref table Dim_Plant
 ref table Product_Line_Map
 ref table _Measures
@@ -58,6 +57,7 @@ ref table CR_FS_2025
 ref table LocalDateTable_299867ae-6e65-479f-ae10-1727dc047a5f
 ref table LocalDateTable_cbe330a8-3b46-40b6-8b6e-36ab2d80b20b
 ref table LocalDateTable_64d68a94-b238-479a-9932-0e62f2dfc3c0
+ref table LocalDateTable_eec5fda3-a7b8-4181-90d8-f1dfdf8fbbba
 
 ref cultureInfo en-US
 

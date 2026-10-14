@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
-  "name": "b9c3d816eb3a8700a8e9",
+  "name": "b9d5458fcb5f54039cbe",
   "position": {
-    "x": 20.666666666666668,
-    "y": 164.66666666666666,
-    "z": 17000,
+    "x": 24.792703150912107,
+    "y": 163.84742951907131,
+    "z": 27001,
     "height": 77.333333333333329,
     "width": 190.66666666666666,
-    "tabOrder": 13000
+    "tabOrder": 27001
   },
   "visual": {
     "visualType": "slicer",
@@ -27,9 +27,8 @@
                 }
               },
               "queryRef": "Calendar.Year Month",
-              "nativeQueryRef": "Period",
-              "active": true,
-              "displayName": "Period"
+              "nativeQueryRef": "Year Month",
+              "active": true
             }
           ]
         }
@@ -51,7 +50,98 @@
       ],
       "general": [
         {
-          "properties": {}
+          "properties": {
+            "filter": {
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "c",
+                    "Entity": "Calendar",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "In": {
+                        "Expressions": [
+                          {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "c"
+                                }
+                              },
+                              "Property": "Year Month"
+                            }
+                          }
+                        ],
+                        "Values": [
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'2025-01'"
+                              }
+                            }
+                          ],
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'2025-02'"
+                              }
+                            }
+                          ],
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'2025-03'"
+                              }
+                            }
+                          ],
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'2025-04'"
+                              }
+                            }
+                          ],
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'2025-05'"
+                              }
+                            }
+                          ],
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'2025-06'"
+                              }
+                            }
+                          ],
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'2025-07'"
+                              }
+                            }
+                          ],
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'2025-08'"
+                              }
+                            }
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ],
       "items": [
@@ -123,7 +213,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "bf50e23065a129234299",
+        "name": "ade43051c14e408f59fd",
         "field": {
           "Column": {
             "Expression": {
@@ -164,84 +254,84 @@
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-01'"
+                          "Value": "'2025-01'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-02'"
+                          "Value": "'2025-02'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-03'"
+                          "Value": "'2025-03'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-04'"
+                          "Value": "'2025-04'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-05'"
+                          "Value": "'2025-05'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-06'"
+                          "Value": "'2025-06'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-07'"
+                          "Value": "'2025-07'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-08'"
+                          "Value": "'2025-08'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-09'"
+                          "Value": "'2025-09'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-10'"
+                          "Value": "'2025-10'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-11'"
+                          "Value": "'2025-11'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'2026-12'"
+                          "Value": "'2025-12'"
                         }
                       }
                     ]
@@ -251,59 +341,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "f4dab6102f211c5a8a24",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_CR_CS_Measures"
-              }
-            },
-            "Property": "CR Has Data (Period Slicer)"
-          }
-        },
-        "type": "Advanced",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "_",
-              "Entity": "_CR_CS_Measures",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "Not": {
-                  "Expression": {
-                    "Comparison": {
-                      "ComparisonKind": 0,
-                      "Left": {
-                        "Measure": {
-                          "Expression": {
-                            "SourceRef": {
-                              "Source": "_"
-                            }
-                          },
-                          "Property": "CR Has Data (Period Slicer)"
-                        }
-                      },
-                      "Right": {
-                        "Literal": {
-                          "Value": "null"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        "howCreated": "User"
       }
     ]
   }

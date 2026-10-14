@@ -4,10 +4,10 @@
   "position": {
     "x": 239.16666666666669,
     "y": 241.66666666666669,
-    "z": 22000,
+    "z": 21000,
     "height": 260.83333333333337,
     "width": 507.5,
-    "tabOrder": 18000
+    "tabOrder": 17000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -265,5 +265,51 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "86816d16ef9d3d75aeaa",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "CR_Dim_Product_Line"
+              }
+            },
+            "Property": "product_line"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "66fd88ebd239a45b5b4e",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_CR_CS_Measures"
+              }
+            },
+            "Property": "CR Actual Units"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "2441ab62c74cfd8faf24",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_CR_CS_Measures"
+              }
+            },
+            "Property": "CR AOP Units"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

@@ -106,12 +106,5 @@
         }
       }
     ]
-  },
-  "visualInteractions": [
-    {
-      "source": "b9c3d816eb3a8700a8e9",
-      "target": "17318db22c8940502817",
-      "type": "DataFilter"
-    }
-  ]
+  }
 }

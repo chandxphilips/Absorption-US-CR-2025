@@ -4,10 +4,10 @@
   "position": {
     "x": 20.666666666666668,
     "y": 240.66666666666666,
-    "z": 18000,
+    "z": 17000,
     "height": 77.333333333333329,
     "width": 190.66666666666666,
-    "tabOrder": 14000
+    "tabOrder": 13000
   },
   "visual": {
     "visualType": "slicer",
@@ -51,7 +51,49 @@
       ],
       "general": [
         {
-          "properties": {}
+          "properties": {
+            "filter": {
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "c",
+                    "Entity": "CR_Dim_Product_Line",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "In": {
+                        "Expressions": [
+                          {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "c"
+                                }
+                              },
+                              "Property": "discipline"
+                            }
+                          }
+                        ],
+                        "Values": [
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'IGTD'"
+                              }
+                            }
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ],
       "items": [
@@ -123,7 +165,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "5856462fff2a55df22f7",
+        "name": "0d43c9332ce8b517d70d",
         "field": {
           "Column": {
             "Expression": {

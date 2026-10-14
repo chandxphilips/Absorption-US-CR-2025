@@ -174,13 +174,13 @@
               "Column": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "IGTD Sites"
+                    "Entity": "IGTD Product Lines"
                   }
                 },
-                "Property": "Site"
+                "Property": "Product Line"
               }
             },
-            "direction": "Ascending"
+            "direction": "Descending"
           }
         ]
       }

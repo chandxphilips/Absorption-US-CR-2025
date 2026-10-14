@@ -265,51 +265,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "cf00dbab5175cc41f238",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "IGTD Product Lines"
-              }
-            },
-            "Property": "Product Line"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "f9c0805f7c4a5f22ead7",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_US & CR IGT-D_Measures"
-              }
-            },
-            "Property": "IGTD PL Actual Units"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "38af7ad810e110ce312e",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_US & CR IGT-D_Measures"
-              }
-            },
-            "Property": "IGTD PL AOP Units"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

@@ -174,10 +174,12 @@ table CR_MB51
 		mode: import
 		source =
 				let
-				    Source = Databricks.Catalogs("adb-8587249103137143.3.azuredatabricks.net", "/sql/1.0/warehouses/25534f8556d30920", [Catalog="qa_wb", Database="digitalfactory", QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation=null, Protocol=null]),
-				    vw_cs_absorption_mb51_cr_digitalfactory_qa_wb = Source{[Item="vw_cs_absorption_mb51_cr",Schema="digitalfactory",Catalog="qa_wb"]}[Data]
+				    Source = Databricks.Catalogs("adb-8587249103137143.3.azuredatabricks.net", "/sql/1.0/warehouses/25534f8556d30920", [Catalog=null, Database=null, QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation="2.0", Protocol=null]),
+				    qa_wb_Database = Source{[Name="qa_wb",Kind="Database"]}[Data],
+				    digitalfactory_Schema = qa_wb_Database{[Name="digitalfactory",Kind="Schema"]}[Data],
+				    vw_cs_absorption_mb51_cr_25_View = digitalfactory_Schema{[Name="vw_cs_absorption_mb51_cr_25",Kind="View"]}[Data]
 				in
-				    vw_cs_absorption_mb51_cr_digitalfactory_qa_wb
+				    vw_cs_absorption_mb51_cr_25_View
 
 	annotation PBI_NavigationStepName = Navigation
 

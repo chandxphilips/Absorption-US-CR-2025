@@ -106,23 +106,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "9a4e3234fd15c24dc218",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "IGTD Sites"
-              }
-            },
-            "Property": "Site"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

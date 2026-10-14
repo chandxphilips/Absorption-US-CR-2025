@@ -4,10 +4,10 @@
   "position": {
     "x": 13.076923076923077,
     "y": 526.15384615384619,
-    "z": 24000,
+    "z": 23000,
     "height": 259.09090909090907,
     "width": 871.81818181818176,
-    "tabOrder": 22000
+    "tabOrder": 21000
   },
   "visual": {
     "visualType": "tableEx",
@@ -549,7 +549,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "e49639a306112302a890",
+        "name": "f3eb9968bfcd6e54d696",
         "field": {
           "Column": {
             "Expression": {
@@ -563,7 +563,7 @@
         "type": "Categorical"
       },
       {
-        "name": "65d0ffa940ba67935065",
+        "name": "7b786c62fae6197d1231",
         "field": {
           "Column": {
             "Expression": {
@@ -577,7 +577,7 @@
         "type": "Categorical"
       },
       {
-        "name": "19f2d9580850d58f2452",
+        "name": "70f530b683de21349b71",
         "field": {
           "Measure": {
             "Expression": {
@@ -591,7 +591,7 @@
         "type": "Advanced"
       },
       {
-        "name": "0decb087a0dcd20a33d0",
+        "name": "f8278f8273a807f79629",
         "field": {
           "Measure": {
             "Expression": {
@@ -605,7 +605,7 @@
         "type": "Advanced"
       },
       {
-        "name": "51904cc765f61930107c",
+        "name": "f671e4121afba36a0382",
         "field": {
           "Measure": {
             "Expression": {
@@ -619,7 +619,7 @@
         "type": "Advanced"
       },
       {
-        "name": "ecedfff1ebca01964fec",
+        "name": "4f88e1385f104ac1e375",
         "field": {
           "Measure": {
             "Expression": {
@@ -633,7 +633,7 @@
         "type": "Advanced"
       },
       {
-        "name": "29db51ca90d91c7d64d7",
+        "name": "1fe4ef95e8ae2ff0eb63",
         "field": {
           "Measure": {
             "Expression": {
@@ -647,7 +647,7 @@
         "type": "Advanced"
       },
       {
-        "name": "3fccaaf7ebdeb7ee4f81",
+        "name": "7ee21b0c47339621d182",
         "field": {
           "Measure": {
             "Expression": {

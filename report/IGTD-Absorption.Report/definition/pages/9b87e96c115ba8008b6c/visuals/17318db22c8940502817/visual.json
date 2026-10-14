@@ -4,10 +4,10 @@
   "position": {
     "x": 900.43782837127844,
     "y": 525.91943957968476,
-    "z": 25000,
+    "z": 24000,
     "height": 258.40630472854639,
     "width": 395.00875656742556,
-    "tabOrder": 24000
+    "tabOrder": 23000
   },
   "visual": {
     "visualType": "lineClusteredColumnComboChart",
@@ -255,48 +255,6 @@
           ]
         },
         "howCreated": "User"
-      },
-      {
-        "name": "c05fc9fea7dbdbfc5bd6",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_CR_CS_Measures"
-              }
-            },
-            "Property": "CR Actual Absorption $ (Abs)"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "9cbead4006b7222e10f0",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_CR_CS_Measures"
-              }
-            },
-            "Property": "CR AOP $ (Abs)"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "2ff9a7a3b2bb3b345d55",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_CR_CS_Measures"
-              }
-            },
-            "Property": "Achievement %"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }

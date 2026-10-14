@@ -233,7 +233,9 @@ table CR_MB51_Units
 				    Source = Databricks.Catalogs("adb-8587249103137143.3.azuredatabricks.net", "/sql/1.0/warehouses/25534f8556d30920", [Catalog=null, Database=null, QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation="2.0", Protocol=null]),
 				    qa_wb_Database = Source{[Name="qa_wb",Kind="Database"]}[Data],
 				    digitalfactory_Schema = qa_wb_Database{[Name="digitalfactory",Kind="Schema"]}[Data],
-				    vw_cs_absorption_mb51_cr_units_View = digitalfactory_Schema{[Name="vw_cs_absorption_mb51_cr_units",Kind="View"]}[Data]
+				    vw_cs_absorption_mb51_cr_units_25_View = digitalfactory_Schema{[Name="vw_cs_absorption_mb51_cr_units_25",Kind="View"]}[Data]
 				in
-				    vw_cs_absorption_mb51_cr_units_View
+				    vw_cs_absorption_mb51_cr_units_25_View
+
+	annotation PBI_ResultType = Table
 

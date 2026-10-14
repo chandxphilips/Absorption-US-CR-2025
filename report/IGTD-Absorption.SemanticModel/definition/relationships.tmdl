@@ -29,19 +29,6 @@ relationship 60634429-2748-e3bc-6c35-f6a715352899
 	fromColumn: Fact_FS_Absorption.part_number_lookup
 	toColumn: Dim_Material_Master.material
 
-relationship 537107be-0250-436d-a09f-899498954019
-	joinOnDateBehavior: datePartOnly
-	fromColumn: Calendar.Date
-	toColumn: LocalDateTable_eec5fda3-a7b8-4181-90d8-f1dfdf8fbbba.Date
-
-relationship e9621bc4-15f6-5b9e-40b6-1525aad342fb
-	fromColumn: Fact_FS_Absorption.posting_date
-	toColumn: Calendar.Date
-
-relationship 47e0c24e-a752-f5a4-f2bb-26751084c2e3
-	fromColumn: Fact_MB51_Units.posting_date
-	toColumn: Calendar.Date
-
 relationship 9782c00f-9e82-0140-c049-d9fd94a1bba2
 	fromColumn: Fact_FS_Absorption.plant
 	toColumn: Dim_Plant.'Plant Code'
@@ -65,10 +52,6 @@ relationship e92b99a0-df06-56ad-6778-4b7768d3855d
 relationship 78f0da04-0729-f9d4-1664-d017f33db6bc
 	fromColumn: Fact_AOP.Plant
 	toColumn: Dim_Plant.'Plant Code'
-
-relationship d029203e-3d8b-9332-acf7-e877244ab20e
-	fromColumn: Fact_AOP.period
-	toColumn: Calendar.Date
 
 relationship 0f522485-1563-9163-b599-e06b8376d8e3
 	fromColumn: Fact_FS_Absorption.'Site Codes'
@@ -112,18 +95,6 @@ relationship 124a031f-3e47-456d-a5ea-c02a582c5abc
 	fromColumn: CR_Holidays.holiday_date
 	toColumn: LocalDateTable_e67e2a5b-2378-4559-a739-23ab4e5907ba.Date
 
-relationship 9d08b01a-ef32-f10a-2e9c-3ff2ef069143
-	fromColumn: CR_FS_Absorption.posting_date
-	toColumn: Calendar.Date
-
-relationship f5037034-63d3-db6d-5160-d3d79b194f6e
-	fromColumn: CR_MB51.posting_date
-	toColumn: Calendar.Date
-
-relationship 911449ae-8870-a507-7c0b-7f92781210f7
-	fromColumn: CR_AOP_2026.period
-	toColumn: Calendar.Date
-
 relationship 053806e3-4768-2245-d40a-7b1f02671ca5
 	fromColumn: CR_FS_Absorption.part_number_lookup
 	toColumn: CR_Material_Master.material
@@ -144,10 +115,6 @@ relationship 9939bc38-30f4-4772-8832-2ed55b1cb723
 relationship 6aa1409f-d33f-936f-83ef-cb7c6c8a02d1
 	fromColumn: CR_MB51_Units.material
 	toColumn: CR_Material_Master.material
-
-relationship 6ce8ef6c-40e1-07ef-0236-ed22b4255d17
-	fromColumn: CR_MB51_Units.posting_date
-	toColumn: Calendar.Date
 
 relationship 9984cc5c-7d85-d6bf-6165-c83c5576dfe0
 	fromColumn: CR_FS_Absorption.product_line_key
@@ -195,4 +162,37 @@ relationship 1e8007c2-9c0d-4d78-b4e8-94257f0f80da
 	joinOnDateBehavior: datePartOnly
 	fromColumn: CR_FS_2025.posting_date
 	toColumn: LocalDateTable_64d68a94-b238-479a-9932-0e62f2dfc3c0.Date
+
+relationship 4968a14e-f61c-4d19-ac34-6ab2df9cbba6
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.Date
+	toColumn: LocalDateTable_eec5fda3-a7b8-4181-90d8-f1dfdf8fbbba.Date
+
+relationship e9621bc4-15f6-5b9e-40b6-1525aad342fb
+	fromColumn: Fact_FS_Absorption.posting_date
+	toColumn: Calendar.Date
+
+relationship 47e0c24e-a752-f5a4-f2bb-26751084c2e3
+	fromColumn: Fact_MB51_Units.posting_date
+	toColumn: Calendar.Date
+
+relationship d029203e-3d8b-9332-acf7-e877244ab20e
+	fromColumn: Fact_AOP.period
+	toColumn: Calendar.Date
+
+relationship 9d08b01a-ef32-f10a-2e9c-3ff2ef069143
+	fromColumn: CR_FS_Absorption.posting_date
+	toColumn: Calendar.Date
+
+relationship f5037034-63d3-db6d-5160-d3d79b194f6e
+	fromColumn: CR_MB51.posting_date
+	toColumn: Calendar.Date
+
+relationship 911449ae-8870-a507-7c0b-7f92781210f7
+	fromColumn: CR_AOP_2026.period
+	toColumn: Calendar.Date
+
+relationship 6ce8ef6c-40e1-07ef-0236-ed22b4255d17
+	fromColumn: CR_MB51_Units.posting_date
+	toColumn: Calendar.Date
 
